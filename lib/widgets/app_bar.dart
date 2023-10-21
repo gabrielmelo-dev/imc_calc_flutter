@@ -19,6 +19,7 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: title,
       forceMaterialTransparency: true,
+      iconTheme: IconThemeData(color: Colors.black),
       centerTitle: true,
       leading: leading,
       actions: widgets,
